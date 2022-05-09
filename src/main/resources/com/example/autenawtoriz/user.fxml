@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #170457;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autenawtoriz.UserController">
+    <children>
+        <AnchorPane layoutX="-3.0" layoutY="96.0" prefHeight="315.0" prefWidth="600.0" style="-fx-background-color: #e4e2eb;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="84.80000000000001">
+            <children>
+                <Button fx:id="Button_wozwr" layoutX="507.0" layoutY="242.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="78.0" style="-fx-background-color: #f2590d;" text="ВЫХОД" textFill="#0f0500">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+                <ListView fx:id="List_text" layoutX="-1.0" layoutY="-1.0" prefHeight="136.0" prefWidth="600.0" AnchorPane.bottomAnchor="180.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0" />
+                <Button fx:id="Button_4" layoutX="383.0" layoutY="243.0" mnemonicParsing="false" onAction="#Button_delet" prefHeight="56.0" prefWidth="90.0" text="УдалФайл">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="Button_3" layoutX="267.0" layoutY="242.0" mnemonicParsing="false" onAction="#Button_zagrus" prefHeight="58.0" prefWidth="85.0" text="ОткФайл">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="Button_2" layoutX="136.0" layoutY="242.0" mnemonicParsing="false" onAction="#Button_otkr" prefHeight="58.0" prefWidth="90.0" text="НайтФайл">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="Button_1" layoutX="14.0" layoutY="242.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="85.0" text="СозФайл">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="tx_text1" layoutX="271.0" layoutY="158.0" prefHeight="66.0" prefWidth="217.0" promptText="АДРЕС ФАЙЛА" />
+                <Button fx:id="Button_zapis" layoutX="499.0" layoutY="162.0" mnemonicParsing="false" onAction="#Butt_zapis" prefHeight="58.0" prefWidth="86.0" text="записать">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Button>
+                <TextArea fx:id="arri" layoutX="4.0" layoutY="161.0" prefHeight="66.0" prefWidth="255.0" promptText="Ввведите текст" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="208.0" prefHeight="88.0" prefWidth="197.0" text="AiTeko" textFill="#fafafa">
+            <font>
+                <Font size="58.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
